@@ -1,42 +1,60 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 .primary_color{
   color: aqua;  
+}
+
+.movie_card_container{
+  border-style: solid;
+}
+
+.movie_poster{
+  border-style: solid;
+}
+
+.movie_card_info{
+  border-style: solid;
+}
+
+.movie_card_button{
+  border-style: solid;
+}
+
+.movie_detail_panel_container{
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+}
+
+.movie_detail_panel_title{
+  border-style: solid;
+}
+
+.movie_container_main_body{
+  width: 50%;
+  border-style: solid;
+  display: flex;
+}
+
+.movie_image_container{
+
+}
+
+.movie_detail_panel_info{
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+.movie_attribute_container{
+  float: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.movie_attribute{
+  border-radius: 4px;
+  background: darkgray;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 1%;
 }
